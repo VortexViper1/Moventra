@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primaryColor">#1A237E</color>
+    <color name="accentColor">#3D5AFE</color>
+    <color name="secondaryColor">#FFC107</color>
+    <!-- Light Mode Colors -->
+    <color name="primaryTextColor">#212121</color>
+    <color name="secondaryTextColor">#757575</color>
+    <color name="backgroundColor">#F8F9FA</color>
+    <color name="surfaceColor">#FFFFFF</color>
+    <color name="chipBackground">#EEEEEE</color>
+    <color name="dividerColor">#EEEEEE</color>
+
+
+    <!-- Material 3 Surface Variant equivalent for light mode -->
+    <color name="colorSurfaceVariant">#F2F2F2</color>
+</resources>

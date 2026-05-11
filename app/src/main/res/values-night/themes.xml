@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.VenhiclesRentalApplication" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Core Colors for Dark Mode -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/primaryColor</item>
+        <item name="colorOnPrimaryContainer">@color/white</item>
+
+        <item name="colorSecondary">@color/accentColor</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <item name="android:windowBackground">@color/backgroundColor</item>
+        <item name="colorSurface">@color/surfaceColor</item>
+        <item name="colorOnSurface">@color/primaryTextColor</item>
+        <item name="colorSurfaceVariant">@color/colorSurfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/secondaryTextColor</item>
+
+        <item name="colorOutline">@color/dividerColor</item>
+    </style>
+
+    <style name="Theme.VenhiclesRentalApplication" parent="Base.Theme.VenhiclesRentalApplication" />
+
+    <style name="Theme.Splash" parent="Theme.VenhiclesRentalApplication">
+        <item name="android:windowBackground">@color/primaryColor</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>

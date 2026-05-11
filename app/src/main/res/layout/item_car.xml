@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="10dp"
+    app:cardCornerRadius="24dp"
+    app:cardElevation="0dp"
+    app:strokeWidth="1dp"
+    app:strokeColor="@color/dividerColor"
+    app:cardBackgroundColor="@color/surfaceColor">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/imageCard"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            app:cardCornerRadius="18dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:id="@+id/carImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_car"
+                android:background="@color/colorSurfaceVariant"
+                android:transitionName="carImageTransition" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:id="@+id/carBrand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="TESLA"
+            android:textColor="@color/accentColor"
+            android:textSize="11sp"
+            android:letterSpacing="0.15"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/imageCard"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/carName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Model 3"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="2dp"
+            app:layout_constraintEnd_toStartOf="@+id/carRating"
+            app:layout_constraintStart_toStartOf="@id/carBrand"
+            app:layout_constraintTop_toBottomOf="@id/carBrand" />
+
+        <RatingBar
+            android:id="@+id/carRating"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:isIndicator="true"
+            android:progressTint="@color/secondaryColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/carName"
+            app:layout_constraintBottom_toBottomOf="@id/carName" />
+
+        <LinearLayout
+            android:id="@+id/specsLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="@id/carBrand"
+            app:layout_constraintTop_toBottomOf="@id/carName">
+
+            <TextView
+                android:id="@+id/carTransmission"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_bottom_nav"
+                android:backgroundTint="@color/chipBackground"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="4dp"
+                android:text="Auto"
+                android:textColor="@color/secondaryTextColor"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/carFuel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/bg_bottom_nav"
+                android:backgroundTint="@color/chipBackground"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="4dp"
+                android:text="Electric"
+                android:textColor="@color/secondaryTextColor"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/carPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="₹2000"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@id/carBrand"
+            app:layout_constraintTop_toBottomOf="@id/specsLayout" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/day"
+            android:textColor="@color/secondaryTextColor"
+            android:textSize="12sp"
+            android:layout_marginStart="2dp"
+            app:layout_constraintBottom_toBottomOf="@id/carPrice"
+            app:layout_constraintStart_toEndOf="@id/carPrice" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnBook"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:text="Details"
+            android:textSize="12sp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            app:cornerRadius="12dp"
+            android:backgroundTint="@color/primaryColor"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

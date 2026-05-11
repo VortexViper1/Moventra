@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark Mode Colors -->
+    <color name="primaryColor">#3D5AFE</color> <!-- Lighter/vibrant for dark mode -->
+    <color name="backgroundColor">#121212</color>
+    <color name="surfaceColor">#1E1E1E</color>
+    <color name="primaryTextColor">#FFFFFF</color>
+    <color name="secondaryTextColor">#B0B0B0</color>
+    <color name="dividerColor">#2C2C2C</color>
+    <color name="chipBackground">#2C2C2C</color>
+    <color name="colorSurfaceVariant">#2C2C2C</color>
+</resources>
