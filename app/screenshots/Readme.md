@@ -33,37 +33,37 @@ The application provides users with a smooth and user-friendly experience for br
 #  Screenshots
 
 ## Splash Screen
-![Splash](screenshots/Splash.jpg)
+![Splash](Splash.jpg)
 
 ## Login Screen
-![Login](screenshots/Login.jpg)
+![Login](Login.jpg)
 
 ## Signup Screen
-![Signup](screenshots/Signup.jpg)
+![Signup](Signup.jpg)
 
 ## Home Screen
-![Home](screenshots/Home.jpg)
+![Home](Home.jpg)
 
 ## Detailed Vehicle Page
-![Detailed](screenshots/Detailed.jpg)
+![Detailed](Detailed.jpg)
 
 ## Booking Screen
-![Booking](screenshots/Booking.jpg)
+![Booking](Booking.jpg)
 
 ## Checkout Screen
-![Checkout](screenshots/Checkout.jpg)
+![Checkout](Checkout.jpg)
 
 ## Payment Screen
-![Payment](screenshots/Payment.jpg)
+![Payment](Payment.jpg)
 
 ## Wishlist Screen
-![Wishlist](screenshots/Wishlist.jpg)
+![Wishlist](Wishlist.jpg)
 
 ## Notifications Screen
-![Notifications](screenshots/Notifications.jpg)
+![Notifications](Notifications.jpg)
 
 ## Profile Screen
-![Profile](screenshots/Profile.jpg)
+![Profile](Profile.jpg)
 
 ---
 
